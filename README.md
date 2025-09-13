@@ -27,8 +27,5 @@ A simple and secure file encryption/decryption tool with a graphical user interf
 - Only this app (with your `.secret_key`) can decrypt your files.
 - Keep your `.secret_key` safe!
 
-## Customization
-- To change the app icon, replace `appicon.ico` with your own valid `.ico` file and rebuild the `.exe`.
-
 ## License
 MIT License
