@@ -1,4 +1,4 @@
-# File Encryptor/Decryptor
+# Encryptor/Decryptor
 
 A simple and secure file encryption/decryption tool with a graphical user interface (GUI) built using Python and Tkinter. The app uses strong encryption (Fernet with PBKDF2 and per-file salt) and a secret key stored in your Documents folder. The app icon is customizable.
 
