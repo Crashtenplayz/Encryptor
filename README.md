@@ -14,31 +14,10 @@ A simple and secure file encryption/decryption tool with a graphical user interf
 ## How to Use
 
 ### 1. For End Users (No Python Needed)
-- Simply use the files in the `dist` folder: `encrypted_gui.exe` and `appicon.ico` (if required by the app).
-- Double-click `encrypted_gui.exe` to run the app.
+- Double-click `encryptor.exe` to run the app.
 - No Python installation or setup is required.
 
-### 2. For Developers (Building the .exe)
-- Requirements:
-  - Windows OS
-  - Python 3.8+
-  - The following Python packages:
-    - cryptography
-    - tkinter (usually included with Python)
-    - pyinstaller (for building .exe)
-- Place `encrypted_gui.py` and `appicon.ico` in the same folder.
-- Make sure `appicon.ico` is a valid Windows icon file (multi-size recommended).
-- Install dependencies:
-  ```powershell
-  python -m pip install cryptography pyinstaller
-  ```
-- Build the .exe:
-  ```powershell
-  python -m PyInstaller --onefile --windowed --icon appicon.ico encrypted_gui.py
-  ```
-  The `.exe` will be in the `dist` folder. Place `appicon.ico` next to the `.exe` if needed.
-
-### 3. Usage
+### 2. Usage
 - Click "Encrypt Files" to select and encrypt files (they will get a `.loc` extension).
 - Click "Decrypt Files" to select and decrypt `.loc` files.
 - The secret key is saved as `.secret_key` in your Documents folder. Do not delete this file or you will lose access to your encrypted files.
