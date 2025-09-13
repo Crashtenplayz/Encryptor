@@ -9,6 +9,7 @@ A simple and secure file encryption/decryption tool with a graphical user interf
 - Encrypted files use the `.loc` extension
 - Simple drag-and-select GUI (no command line needed)
 - Custom app icon for both the executable and the window
+- Easily encrypt and decrypt folder
 
 
 ## How to Use
